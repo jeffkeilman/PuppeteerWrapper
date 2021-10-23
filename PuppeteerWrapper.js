@@ -70,6 +70,13 @@ class PuppeteerWrapper {
       const curPage = this.pages[0]
       curPage.pageName = urls.name
       await curPage.page.goto(urls.url)
+
+      if (urls.querySelector) {
+        const elHandle = await curPage.page.$(urls.querySelector)
+        const jsHandle = await elHandle.getProperty('outerHTML')
+        return await jsHandle.jsonValue()
+      }
+      // no querySelector, just return the whole page
       return await curPage.page.content()
     } else if (isObject && isArray) {
       if (urls.length === 0) {
