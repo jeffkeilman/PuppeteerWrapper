@@ -1,5 +1,5 @@
 {
-  "name": "puppeteerwrapper",
+  "name": "@jswebscraper/puppeteerwrapper",
   "version": "0.0.1",
   "description": "Wraps Puppeteer methods to expose an easy interface for grabbing and dumping page HTML",
   "main": "PuppeteerWrapper.js",
