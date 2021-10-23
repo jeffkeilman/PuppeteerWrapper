@@ -28,7 +28,7 @@ A Class that wraps a Headless Chrome browser (using Puppeteer) and its pages and
 ----------------------------------------------------------------------
 
 ## Testing
-Testing is executed using [Jest](https://jestjs.io/). All test files are maintained in the `GPUPriceChecker/test/` directory. To run unit tests, run `npm run test`.
+Testing is executed using [Jest](https://jestjs.io/). All test files are maintained in the `PuppeteerWrapper/test/` directory. To run unit tests, run `npm run test`.
 
 ----------------------------------------------------------------------
 
