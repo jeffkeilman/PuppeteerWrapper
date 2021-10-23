@@ -1,0 +1,34 @@
+{
+  "name": "puppeteerwrapper",
+  "version": "0.0.1",
+  "description": "Wraps Puppeteer methods to expose an easy interface for grabbing and dumping page HTML",
+  "main": "PuppeteerWrapper.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffkeilman/PuppeteerWrapper.git"
+  },
+  "author": "Jeff Keilman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffkeilman/PuppeteerWrapper/issues"
+  },
+  "homepage": "https://github.com/jeffkeilman/PuppeteerWrapper#readme",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  },
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}
